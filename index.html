@@ -3,18 +3,22 @@
 <head>
         <meta charset="UTF-8">
         <title>Создание сайтов</title>
-		<link rel="stylesheet" href="css/w3.css" type="text/css" />
-		<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/w3.css" type="text/css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<style>
+	  .mySlides {display:none;}
+	</style>
 </head>
 <body>
   <header class="w3-container w3-blue w3-text-white w3-center w3-padding-8" id="header" >
     <span class="w3-quarter">
-     <h1>Logo</h1>
+	    <img src="img/logo_white.png" alt="Logo" width="100px" height="100px" />
 	</span>
 	<span class="w3-half">
-	  <h1 id="sitename" >Sitecreators.kiev.ua </h1>
+		<h1 id="sitename" style="font-size: 42px;"><b>sitecreators.kiev.ua </b></h1>
+		<span style="font-family:courier" class="w3-small">DEVELOPING THE FUTURE</span>
 	</span>
-	<span class="w3-large w3-rest">
+	<span class="w3-large w3-right">
 	  <p id="headerphones">+38-093-415-84-42</p>
 	  <br/>
 	</span>
@@ -26,16 +30,18 @@
 				  <li><a class="w3-hover-indigo" href="#akzii">Акции</a></li>
 				  <li><a class="w3-hover-indigo" href="#pricelist">Стоимость работ</a></li>
 				  <li><a class="w3-hover-indigo" href="#">Образцы работ</a></li>
-				  <li><a class="w3-hover-indigo" href="#">Контакты</a></li>
+				  <li><a class="w3-hover-indigo" href="#contacts">Контакты</a></li>
 				  <li><a class="w3-hover-indigo" href="#">Обратная связь</a></li>
 		  </ul>
   </nav>
 	<section id="topsection" class="w3-container w3-margin" style="">
 			<div class="w3-content w3-half">
-					<p/>	
+				<img class="mySlides w3-center" src="img/banner_1.jpg" alt="image#1" width="100%" />	
+				<img class="mySlides w3-center" src="img/banner_2.jpg" alt="image#1" width="100%" />	
+				<img class="mySlides w3-center" src="img/banner_3.jpg" alt="image#1" width="100%" />	
 			</div>
 			<article id="topsecarticle" class="w3-content w3-half w3-leftbar w3-border-blue w3-pale-blue">
-					<p style="text-align: justify;">
+					<p style="text-align: justify; font-size: 13px;">
 						На даный момент сайт это не просто безобразный шаблон с картинками,
 					   	таблицами, ссылками и текстом. Сегодня сайт - это 
 						воплощение любих фантазий и требований заказчика.
@@ -56,20 +62,22 @@
 	  </div>
 	  <div class="w3-container w3-card-8 w3-blue w3-text-white w3-center w3-margin">
 	    <div class="w3-container w3-quarter">
-		  <p>for image
+		    <img src="img/html-css-js-logo.png" alt="html-js-css-logo" width="150px" class="w3-padding-16" />
 		</div>
 		<div class="w3-container w3-half">
 		  <p style="text-align: justify;">
 		  Разработку веб-приложений любой сложности с применением HTML5, CSS3, jQuery, JavaScript,
 		  Java, Servlet API, JSP, JSF, MVC.</p>
 		</div>
-		<div class="w3-container w3-rest">
-		<p>for image</p>
+		<div class="w3-container w3-rest w3-padding-16">
+		  <img src="img/java-logo.png" alt="java-logo" height="50px" id="java-logo" />
+		  <img src="img/jquery-logo.png" alt="jquery-logo" height="50px" id="jquery-logo" />
+		  <img src="img/apache-logo.png" alt="apache-logo" height="30px" id="apache-logo" />
 		</div>
 	  </div>
 	  <div class="w3-container w3-card-8 w3-blue w3-text-white w3-center w3-margin">
 	    <div class="w3-container w3-quarter">
-		  <p>for image
+		    <img src="img/convers-img.png" alt="deal" height="100px" class="w3-circle" style="margin-top: 16px;" />
 		</div>
 		<div class="w3-container w3-half">
 		  <p style="text-align: justify;">
@@ -77,13 +85,13 @@
 		  Качественное выполнение поставленых задач по доступной цене.
 		  </p>
 		</div>
-		<div class="w3-container w3-rest">
-		<p>for image</p>
+		<div class="w3-container w3-res w3-padding-8">
+			<img src="img/ok-logo.png" alt="pallet" height="100px" />
 		</div>
 	  </div>
 	  <div class="w3-container w3-card-8 w3-blue w3-text-white w3-center w3-margin">
 	    <div class="w3-container w3-quarter">
-		  <p>for image
+		    <img src="img/cloud-logo.png" alt="cloud-logo" width="150px" style="margin-top:30px;" />
 		</div>
 		<div class="w3-container w3-half">
 		  <p style="text-align: justify;">
@@ -92,12 +100,12 @@
 		  </p>
 		</div>
 		<div class="w3-container w3-rest">
-		<p>for image</p>
+			<img src="img/upload.png" alt="broadband" width="100px" style="margin-top:20px;" />
 		</div>
 	  </div>
 	  <div class="w3-container w3-card-8 w3-blue w3-text-white w3-center w3-margin">
 	    <div class="w3-container w3-quarter">
-		  <p>for image
+		    <img src="img/html-code-green.png" alt="html-code" width="90px" style="margin-top:16px;" />
 		</div>
 		<div class="w3-container w3-half">
 		  <p style="text-align: justify;">
@@ -106,7 +114,7 @@
 		  </p>
 		</div>
 		<div class="w3-container w3-rest">
-		<p>for image</p>
+			<img src="img/developer-logo1.png" alt="developer-logo" height="90px" style="margin-top:16px;" />
 		</div>
 	  </div>
 	</section>
@@ -155,7 +163,7 @@
 	  </table>
 	  <div class="w3-container w3-padding-4">
   	    <div class="w3-tag w3-red w3-xxlarge w3-left w3-margin">ВНИМАНИЕ!</div>
-		<div class="w3-rest"><b>Данный перечень услуг не являеться исчерпывающим и 
+		<div class="w3-rest w3-padding-16" style="text-align: justify;"><b>Данный перечень услуг не являеться исчерпывающим и 
 	      служит лишь для ориентации. Основные требования по функционалу и обложке все равно остаются
 		  за заказчиком.</b>
 		</div>
@@ -167,7 +175,7 @@
 	      <h2 style="text-align:center;">Наши контакты</h2>
 			  <div class="w3-container">
 			  <div class="w3-left">
-			    img
+			    <img src="img/phone_icon.png" alt="phone" width="50px" height="50px" />
 			  </div>
 			  <div class="w3-right w3-large">
 			    +38-093-415-84-42
@@ -176,8 +184,8 @@
 	  		  </div>
 			  <div class="w3-container">
 			  <div class="w3-left">
-			    img
-			  </div>
+			    <img src="img/mail_icon.png" alt="mail" width="50px" height="50px" />
+ 			  </div>
 			  <div class="w3-right w3-large">
 			    viittyok1992@gmail.com
 			    <p>ivviktor1992@ukr.net</p>
@@ -189,5 +197,20 @@
   <footer id="footer" class="w3-container w3-blue w3-text-white w3-padding-16">
   <p></p>
   </footer>
+  <script>
+	var myIndex = 0;
+	carousel();
+	function carousel() {
+	  var i;
+	  var x = document.getElementsByClassName("mySlides");
+	  for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}    
+        x[myIndex-1].style.display = "block";  
+        setTimeout(carousel, 4000);    
+       }
+  </script>
 </body>
 </html>
