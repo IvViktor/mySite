@@ -36,7 +36,7 @@
 				  <li><a class="w3-hover-indigo" href="#pricelist">Стоимость работ</a></li>
 				  <li><a class="w3-hover-indigo" href="#">Образцы работ</a></li>
 				  <li><a class="w3-hover-indigo" href="#contacts">Контакты</a></li>
-				  <li><a class="w3-hover-indigo" href="#">Обратная связь</a></li>
+				  <li><a class="w3-hover-indigo" href="#feedback">Обратная связь</a></li>
 		  </ul>
   </nav>
 	<section id="topsection" class="w3-container w3-margin">
@@ -250,8 +250,51 @@
 	    </div>
       </div>
 	</section>
+	<section id="feedback" class="w3-container w3-center">
+		<h2 style="font-family:Russo One;font-size:40px;">Feedback</h2>
+		<p style="font-family:Play;text-align:justify;font-size:20px;">
+			Если после посещения сайта вы заинтересовались 
+		    в сотрудничестве с нами, или у вас еще остались сомнения по поводу нашей 
+			компетентности, или же для вас это дороговато, тогда не стесняйтесь, 
+			оставьте нам заявку на обратный звонок (желательно с коментарием) и мы 
+			обязательно с вами свяжемся, выслушаем ваши требования (пожелания) и сделаем выгодное и 
+			доступное для вас предложение.
+		</p>
+		<p style="font-family:Play;font-size:26px;font-weight:bold;">
+			И помните что заявка вас абсолютно ни к чему не обязывает.
+		</p>
+		<div id="feedbackform" class="w3-card-4 w3-earl-grey w3-margin-16" style="text-align:left;">
+			<div class="w3-container w3-aqua">
+				<h3>Обратная связь</h3>
+			</div>
+			<form class="w3-container" action="" method="POST">
+				<label class="w3-label">Имя</label>
+				<input class="w3-input w3-border" type="text" id="name" />
+
+				<label class="w3-label">Телефон или e-mail</label>
+				<input class="w3-input w3-border" id="phone" type="text" required="true"/>
+				<label class="w3-label" >Коментарий</label>
+				<textarea class="w3-input w3-border" id="commentField"
+					  	name="coment" cols="30" rows="5"></textarea>
+				<button class="w3-btn w3-aqua w3-margin w3-border">Отправить</button>
+			</form>
+		</div>
+	</section>
   <footer id="footer" class="w3-container w3-blue w3-text-white w3-padding-16">
-  <p></p>
+  <span style="font-family:Russo One;font-size:28px;margin-left:35%;" class="w3-padding-4">
+		  &copy&nbspsitecreators.kiev.ua
+  </span>
+  <!--<span class="w3-right w3-padding-4">
+		  <a href="http://vk.com" target="_blank">
+				  <i class="fa fa-vk fa-2x" style="margin:0 10px;color:#ffffff"></i>
+		  </a>
+		  <a href="http://facebook.com" target="_blank">
+				  <i class="fa fa-facebook-official fa-2x" style="margin:0 10px;color:#ffffff"></i>
+		  </a>
+		  <a href="http://twitter.com" target="_blank">
+				  <i class="fa fa-twitter fa-2x" style="margin:0 10px;color:#ffffff"></i>
+		  </a>
+  </span>-->
   </footer>
   <script>
 	var myIndex = 0;
