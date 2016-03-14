@@ -186,18 +186,24 @@
 	  <div class="w3-card-8">
 	    <div class="w3-container w3-light-grey">
 	      <h2 style="text-align:center;font-family:Russo One;font-size:40px;">Наши контакты</h2>
-			  <div class="w3-container w3-hover-blue">
+			  <div class="w3-container" 
+  				    onmouseover='setIconColor(this.getElementsByTagName("i")[0],"#2eb82e")'
+					onmouseout='setIconColor(this.getElementsByTagName("i")[0],"#737373")'>
 			  <div class="w3-left w3-padding-8">
-			    <img src="img/phone_icon.png" alt="phone" width="50px" height="50px" />
+				<!--<img src="img/phone_icon.png" alt="phone" width="50px" height="50px" />-->
+				<i class="fa fa-phone-square fa-4x" style="color:#737373"></i>
 			  </div>
 			  <div class="w3-right w3-large w3-padding-8">
 			    mobile#1
 			    <p>mobile#2</p>
 			  </div>
 	  		  </div>
-			  <div class="w3-container w3-hover-blue">
+			  <div class="w3-container"	
+  					    onmouseover='setIconColor(this.getElementsByTagName("i")[0],"#ff1a1a")'
+						onmouseout='setIconColor(this.getElementsByTagName("i")[0],"#737373")'>
 			  	<div class="w3-left w3-padding-8">
-			    	<img src="img/mail_icon.png" alt="mail" width="50px" height="50px" />
+					<i class="fa fa-envelope fa-4x" style="color:#737373"></i>
+					<!--<img src="img/mail_icon.png" alt="mail" width="50px" height="50px" />-->
  			  	</div>
 			  	<div class="w3-right w3-large w3-padding-8">
 			   		 mail#1
@@ -207,35 +213,35 @@
 			  <div class="w3-container w3-center w3-padding-8">
 					  <span style="margin: 5%">
 					  	<a href="#contacts" title="Vkontakte">
-								<i class="fa fa-vk fa-5x" style="color:#737373"
+								<i class="fa fa-vk fa-4x" style="color:#737373"
 										onmouseover='setIconColor(this,"#4b5998")'
 										onmouseout='setIconColor(this,"#737373")'></i>
 						</a>
 					  </span>
   					  <span style="margin: 5%">
 					  	<a href="#contacts" title="Facebook">
-								<i class="fa fa-facebook-square fa-5x" style="color:#737373"
+								<i class="fa fa-facebook-square fa-4x" style="color:#737373"
 										onmouseover='setIconColor(this,"#3b5998")'
 										onmouseout='setIconColor(this,"#737373")'></i>
 						</a>
 					  </span>
   					  <span style="margin: 5%">
 					  	<a href="#contacts" title="Google+">
-								<i class="fa fa-google-plus fa-5x" style="color:#737373"
+								<i class="fa fa-google-plus fa-4x" style="color:#737373"
 										onmouseover='setIconColor(this,"#d0422a")'
 										onmouseout='setIconColor(this,"#737373")'></i>
 						</a>
 					  </span>
 					  <span style="margin: 5%">
 					  	<a href="#contacts" title="Twitter">
-								<i class="fa fa-twitter-square fa-5x" style="color:#737373"
+								<i class="fa fa-twitter-square fa-4x" style="color:#737373"
 										onmouseover='setIconColor(this,"#55acee")'
 										onmouseout='setIconColor(this,"#737373")'></i>
 						</a>
 					  </span>
 					  <span style="margin: 5%">
 					  	<a href="#contacts" title="Viber">
-								<i class="fa fa-phone fa-5x" style="color:#737373"
+								<i class="fa fa-phone fa-4x" style="color:#737373"
 										onmouseover='setIconColor(this,"#7b519d")'
 										onmouseout='setIconColor(this,"#737373")'></i>
 						</a>
